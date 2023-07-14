@@ -4,11 +4,11 @@ import "./../styles/App.css";
 const App = () => {
   const [count, setCount] = useState;
   const handleClick = () => {
-    setButtonClick(count + 1);
+    setCount(count + 1);
   };
   return (
     <div>
-      <p>Button clicked {count} times </p>
+      <p>Button clicked {count} times</p>
       <button onClick={handleClick}>Click Me</button>
     </div>
   );
